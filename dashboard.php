@@ -15,7 +15,7 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <h4 class="text-center">Selamat Datang <b><?= $_SESSION['akun']['nama'] ?></b> di Website Pengajuan BBM</h4>
+        <h4 class="text-center">Selamat Datang <b><?= $_SESSION['akun']['nama'] ?></b> di Website Pengajuan Be SMART KOTA MADIUN </h4>
         <br>
         <img src="assets/welcome.webp" width="100%" style="border-radius: 10px;">
       </div>

@@ -109,7 +109,7 @@ if ($_SESSION['akun']['role'] == 'Admin') {
    <div class="wrapper ">
       <header class="main-header-top hidden-print <?= $bg ?>">
          <a href="dashboard.php" class="logo"> <?php if ($_SESSION['akun']['role'] == 'Admin') { ?>
-               <div>Halaman Admin / HRD</div>
+               <div>Halaman Admin</div>
             <?php } elseif ($_SESSION['akun']['role'] == 'Kepala Bagian') { ?>
                <div>Halaman Kepala Bagian</div>
             <?php } elseif ($_SESSION['akun']['role'] == 'Keuangan') { ?>
